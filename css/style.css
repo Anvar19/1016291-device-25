@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face{
     font-family: 'Roboto', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet");
@@ -73,4 +74,16 @@ body {
 .user-navigation a {
     text-decoration: none; 
     font-family: sans-serif;
+=======
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'gilroyextrabold';
+    src: url('fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+    
+>>>>>>> 795a48f2f3fd482e1c12f560eb0a2c4f5d87bce0
 }
