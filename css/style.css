@@ -1,14 +1,20 @@
-<<<<<<< HEAD
 @font-face{
     font-family: 'Roboto', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet");
+    font-weight: normal;
+    font-style: normal;
     }
 
 @font-face{
-    src: url('10871-webfont.woff2') format('woff2'),
-    url('10871-webfont.woff') format('woff');
+    font-family: 'gilroyextrabold';
+    src: url("../fonts/gilroyextrabold.woff") format("woff"),
+    url("../fonts/gilroyextrabold.woff2") format("woff2");
 font-weight: normal;
 font-style: normal;
+}
+
+h1 {
+    font-family: 'gilroyextrabold'; 
 }
 
 body {
@@ -17,9 +23,17 @@ body {
 }
 
 .client-navigation a {
-    font-size: 15px;
-    color: #000;
-    text-transform:uppercase;
+    width: 214px;
+    height: 12px;
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: left;
+    color: #000000;
     text-transform: uppercase;
 }
 
@@ -33,7 +47,7 @@ body {
 
 .client-navigation a {
     text-decoration: none; 
-    font-family: 'gilroyextrabold'
+    font-family: 'gilroyextrabold';
     }
 
 .client-navigation ul {
@@ -43,9 +57,8 @@ body {
 .site-navigation a {
     font-size: 10px;
     color: #000;
-    text-transform:uppercase;
     text-transform: uppercase;
-}    
+    }    
 
 .site-navigation li {
     list-style-type: none;
@@ -53,14 +66,14 @@ body {
 
 .site-navigation a {
     text-decoration: none; 
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .search a {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
-.user-navigation  a{
+.user-navigation  a {
     font-size: 10px;
     color: #000;
     text-transform:uppercase;
@@ -73,17 +86,87 @@ body {
 
 .user-navigation a {
     text-decoration: none; 
-    font-family: sans-serif;
-=======
-body {
-    margin: 0;
-    padding: 0;
-
-    font-family: 'gilroyextrabold';
-    src: url('fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-
-    
->>>>>>> 795a48f2f3fd482e1c12f560eb0a2c4f5d87bce0
+    font-family: 'Roboto', sans-serif;
 }
+
+.title-up {
+    width: 462px;
+    height: 315px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #464646;
+  }
+  
+.text-style-1 {
+    font-family: 'gilroyextrabold';
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 2.5;
+    color: #000000;
+    list-style-type: none;
+  }
+
+.about-us {
+    width: 131px;
+    height: 35px;
+    font-family: 'gilroyextrabold';
+    font-size: 47px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #000000;
+}
+
+.contacts {
+    width: 216px;
+    height: 34px;
+    font-family: 'gilroyextrabold';
+    font-size: 47px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #000000;
+  }
+
+.to-take {
+    width: 511px;
+    height: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #464646;
+  }
+
+
+.button-back {
+    width: 215px;
+    height: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'gilroyextrabold';
+    text-decoration: none; 
+    color: #000;
+  }
+
+.footer-back {
+    width: 1440px;
+    height: 323px;
+    background-color: #464646;
+  }
