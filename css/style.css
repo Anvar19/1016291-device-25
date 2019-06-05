@@ -13,6 +13,14 @@ font-weight: normal;
 font-style: normal;
 }
 
+@font-face{
+    font-family: 'gilroylight';
+    src: url("../fonts/gilroylight.woff") format("woff"),
+    url("../fonts/gilroylight.woff2") format("woff2");
+font-weight: normal;
+font-style: normal;
+}
+
 h1 {
     font-family: 'gilroyextrabold'; 
 }
@@ -53,7 +61,18 @@ body {
 .client-navigation ul {
     line-height: 100%;
     }
-    
+
+.subnavigation a {
+    font-size: 10px;
+    color: #000;
+    font-weight: lighter;
+    }
+
+.subnavigation a { 
+    text-decoration: none; 
+    font-family: 'Roboto', sans-serif;
+}
+
 .site-navigation a {
     font-size: 10px;
     color: #000;
@@ -113,22 +132,16 @@ body {
   }
 
 .about-us {
-    width: 131px;
-    height: 35px;
     font-family: 'gilroyextrabold';
     font-size: 47px;
     font-weight: 800;
     font-style: normal;
-    font-stretch: normal;
     line-height: 1.02;
     letter-spacing: 0.5px;
-    text-align: center;
     color: #000000;
 }
 
 .contacts {
-    width: 216px;
-    height: 34px;
     font-family: 'gilroyextrabold';
     font-size: 47px;
     font-weight: 800;
@@ -139,6 +152,23 @@ body {
     text-align: left;
     color: #000000;
   }
+
+.services li {
+    list-style-type: none; 
+}
+
+.services a {
+    font-family: 'gilroyextrabold';
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: left;
+    color:#000000;
+}
 
 .to-take {
     width: 511px;
@@ -154,11 +184,13 @@ body {
     color: #464646;
   }
 
+.button-back li {
+    list-style-type: none; 
+}
 
-.button-back {
-    width: 215px;
-    height: 15px;
+.button-back a {
     font-size: 18px;
+    text-decoration: none; 
     text-transform: uppercase;
     font-family: 'gilroyextrabold';
     text-decoration: none; 
@@ -170,3 +202,171 @@ body {
     height: 323px;
     background-color: #464646;
   }
+
+.adress {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}  
+
+.footer-social li  {
+    list-style-type: none; 
+    }
+
+.footer-social a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none; 
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.breadcrumbs li {
+    list-style-type: none; 
+}
+
+.breadcrumbs a {
+    opacity: 0.3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumbs-current {
+    opacity: 0.3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.color {
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000
+}
+
+.color-list li {
+    list-style-type: none;  
+}
+
+.color-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.86;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #000000
+}
+
+.bluetooth {
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+
+.filter-option li {
+    list-style-type: none; 
+}
+
+.filter-option {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.86;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #000000;
+}
+
+.show {
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: #000000;
+}
+
+.catalog-list li{
+    list-style-type: none; 
+}
+
+.catalog-item a {
+    font-family: 'gilroyextrabold';
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+
+.catalog-item-price {
+    font-family: 'gilroylight';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: var(--greyish-brown-three);
+}
+
+.phone-number {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+}

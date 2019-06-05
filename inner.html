@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="fonts/gilroyextrabold.woff" rel="stylsheet">
+    <link href="fonts/gilroyextrabold.woff2" rel="stylsheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <nav class="main navigation">
         <a class="main-header-logo" href="index.html">
-          <img src="img/index-logo.svg" width="111" height="24" alt="Device">
+          <img src="img/device.png" width="111" height="24" alt="Device">
         </a>
         <ul class="site-navigation">
           <li class="search"><a href="info.html">Поиск по сайту</a></li>
@@ -47,8 +52,8 @@
       <h3>Фильтр</h3>
       <div>Cтоимость</div><br>
       <form action="https://echo.htmlacademy.ru" method="get">
-        <legend>Цвет</legend>
-        <ul>
+        <legend class="color">Цвет</legend>
+        <ul class="color-list">
           <li class="filter-option">
           <input class="filter-input checkbox" type="checkbox" name="black" id="filter-black" checked><label for="filter-black">Черный</label></li>
           <li class="filter-option">
@@ -60,12 +65,12 @@
           <li class="filter-option">
           <input class="filter-input checkbox" type="checkbox" name="rose" id="filter-rose"><label for="filter-rose">Розовый</label></li>
         </ul>
-        <legend>Bluetooth</legend>
-        <ul>
+        <legend class="bluetooth">Bluetooth</legend>
+        <ul class="filter-option">
           <li class="filter-option"><input type="radio" name="answer-yes" checked>Есть</li> 
           <li class="filter-option"><input type="radio" name="answer-no">Нет</li>
         </ul>
-        <br><input type="submit" value="Показать">
+        <br><input type="submit" value="Показать" class="show">
       </form>
     </section>
 
@@ -97,14 +102,13 @@
 
   <footer class="main-footer">
     <p class="footer-contacts">
-      DEVICE<br>
-      г.Москва, ул.Строителей,  д.15 <br>
-      <ul>
+      <img src="img/device.png" srcset="img/device@2x.png 2x, img/device@3x.png 3x" class="device">
+      <p class="adress">г.Москва, ул.Строителей,  д.15</p>
+      <ul class="services">
         <li><a href="dostavka.html">Доставка</a></li>
         <li><a href="warranty.html">Гарантия</a></li>
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
-
       <div class="footer-social">
         <ul>
           <li><a class="social-button" href="#">Фейсбук</a></li>
@@ -113,14 +117,15 @@
         </ul>
       </div>
       <ul class="site-navigation">
-        <li class="search"><a href="info.html">Поиск по сайту</a></li>
         <li><a href="info.html">Сравнить</a></li>
         <li><a href="bin.html">Корзина</a></li>
       </ul>
-
-    <p>Тел: +7 (495) 495-95-95</p>
-    <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="logoacademy.png"></a>
-  </footer>
+      <ul class="user-navigation">
+        <li><a href="login.html">Войти</a></li>
+      </ul>
+      <p class="phone-number">Тел: +7 (495) 495-95-95</p>
+      <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="logoacademy.png"></a>
+    </footer>
   
     <input type="submit" value="В корзину">
     <input type="submit" value="Добавить к сравнению">  

@@ -13,7 +13,7 @@
     <header class="main-header">
       <nav class="main navigation">
         <a class="main-header-logo">
-          <img src="img/index-logo.svg" width="111" height="24" alt="Device">
+          <img src="img/device.png" srcset="img/device@2x.png 2x, img/device@3x.png 3x" class="device">
         </a>
         <ul class="site-navigation">
           <li class="search"><a href="info.html">Поиск по сайту</a></li>
@@ -22,7 +22,7 @@
         </ul>
         <ul class="client-navigation">
           <li><a href="catalog.html">Каталог товаров</a></li>
-          <ul>
+          <ul class="subnavigation">
             <li><a href="virtual-reality.html">Виртуальная реальность</a></li>
             <li><a href="fitnes-brslets.html">Фитнес-браслеты</a></li>
             <li><a href="quadrocopters.html">Квадрокоптеры</a></li>
@@ -30,6 +30,7 @@
             <li><a href="smart-clocks.html">Умные часы</a></li>
             <li><a href="action-cameras.html">Экшн-камеры</a></li>
           </ul>
+          <ul class="services-main">
           <li><a href="delivery.html">Доставка</a></li>
           <li><a href="warranty.html">Гарантия</a></li>
           <li><a href="contacts.html">Контакты</a></li>
@@ -109,15 +110,15 @@
           <ul>
             <li><a href="delivery.html">Доставка</a></li>
             <li><a href="warranty.html">Гарантия</a></li>
-            <li><a  href="credit.html">Кредит</a></li>
+            <li><a href="credit.html">Кредит</a></li>
           </ul>
         </section>
         <section class="brands">
           <ul>
-           <li><a><img src="img/dji.png" width="260" heght="100"></a></li>
-           <li><a><img src="img/spgadgets.png" width="260" heght="100"></a></li>
-           <li><a><img src="img/go-pro.png" width="260" heght="100"></a></li>
-           <li><a><img src="img/vive.png" width="260" heght="100"></a></li> 
+           <li><a><img src="img/dji.png" width="260" height="100"></a></li>
+           <li><a><img src="img/spgadgets.png" width="260" height="100"></a></li>
+           <li><a><img src="img/go-pro.png" width="260" height="100"></a></li>
+           <li><a><img src="img/vive.png" width="260" height="100"></a></li> 
           </ul>
         </section>
         <section class="title-up">
@@ -131,21 +132,24 @@
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
-          <a class="button-back" href="aboutus.html">Подробнее о нас</a>
         </section>
+        <br>
         <section class="title">
           <h2 class="contacts">Контакты</h2>
           <p class="to-take">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
           <img src="img/map.png" width="560" height="222">
           <br>
-          <a class="button-back" href="feedback.html">Напишите нам</a>
         </section>
+        <ul class="button-back">
+          <li><a href="aboutus.html">Подробнее о нас</a></li>
+          <li><a href="feedback.html">Напишите нам</a></li>
+        </ul>
       </main>
       <footer class="main-footer">
         <p class="footer-contacts">
-          DEVICE<br>
-          г.Москва, ул.Строителей,  д.15 <br>
-          <ul>
+          <img src="img/device.png" srcset="img/device@2x.png 2x, img/device@3x.png 3x" class="device">
+          <p class="adress">г.Москва, ул.Строителей,  д.15</p>
+          <ul class="services">
             <li><a href="dostavka.html">Доставка</a></li>
             <li><a href="warranty.html">Гарантия</a></li>
             <li><a href="contacts.html">Контакты</a></li>
@@ -164,7 +168,7 @@
           <ul class="user-navigation">
             <li><a href="login.html">Войти</a></li>
           </ul>
-          <p>Тел: +7 (495) 495-95-95</p>
+          <p class="phone-number">Тел: +7 (495) 495-95-95</p>
           <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="logoacademy.png"></a>
         </footer>
         <section class="modal-feedback">
