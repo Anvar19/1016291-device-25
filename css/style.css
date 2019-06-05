@@ -79,11 +79,6 @@ body {
     font-family: 'Open Sans', sans-serif;;
 }
 
-.site-navigation a {
-    font-size: 10px;
-    color: #000;
-    }    
-
 .site-navigation li {
     list-style-type: none;
 }
