@@ -79,11 +79,11 @@ body {
     font-family: 'Open Sans', sans-serif;;
 }
 
-.site-navigation li {
+.wrapper-nav li {
     list-style-type: none;
 }
 
-.site-navigation a {
+.wrapper-nav a {
     text-decoration: none; 
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -94,6 +94,7 @@ body {
     letter-spacing: 0.2px;
     text-align: left;
     color: #000000;
+    border-spacing: 10%;
 }
 
 .search a {
@@ -152,7 +153,6 @@ body {
 }
 .title-up {
     width: 462px;
-    height: 315px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -232,9 +232,9 @@ body {
 
 .button-back a {
     font-size: 18px;
+    font-family: 'gilroyextrabold';
     text-decoration: none; 
     text-transform: uppercase;
-    font-family: 'gilroyextrabold';
     text-decoration: none; 
     color: #000;
   }
@@ -411,4 +411,206 @@ body {
     letter-spacing: normal;
     text-align: right;
     color: #000000;
+}
+
+.modal-feedback {
+    display: none;
+}
+
+.subnavigation {
+    display: none;
+}
+
+.left .right {
+    width: 50%;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0;
+    padding: 0; 
+}
+
+.logo {
+    width: 100%;
+}
+
+.nav1 .nav2 .nav3 .nav4 {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.wrapper-nav {
+    display: flex;
+    margin: 0;
+    padding: 0; 
+    justify-content: space-around;
+}
+
+.client-nav1 .client-nav2 .client-nav3 .client-nav4 {
+    width: 25%;
+}
+
+.wrapper-nav1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand1 .brand3 .brand3 .brand4 {
+    width: 25%;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat-item1 .cat-item2 .cat-item3 .cat-item4 .cat-item5 .cat-item6 {
+    width: 16,666%;
+}
+
+.cat-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-about {
+    width: 479px;  
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #464646;
+}
+
+.item-link {
+    width: 133px;
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.item-options {
+    width: 79px;
+    font-family: 'gilroylight';
+    font-size: 36px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: var(--black);
+}
+
+.item-options1 {
+    width: 78px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #464646;
+}
+
+.main-slider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider .slider-description {
+    width: 50%;
+}
+
+.delivery-header {
+    width: 217px;
+    font-family: 'gilroyextrabold';
+    font-size: 47px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: var(--black);
+}
+
+.delivery-how {
+    width: 426px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #464646;
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.delivery-links .delivery-description {
+    width: 50%;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer-contacts .services .site-navigation {
+    width: 33%;
+}
+
+.services {
+    width: 121px;
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: left;
+    color: var(--header-top-text-color);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.site-navigation {
+    width: 42px;
+    opacity: 0.7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.site-navigation a {
+    text-decoration: none;
 }
