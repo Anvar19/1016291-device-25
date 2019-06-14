@@ -55,7 +55,7 @@ body {
     list-style-type: none;
 }
 
-.client-navigation ul {
+.client-navigation li {
     list-style-type: none;
 }
 
@@ -447,16 +447,19 @@ body {
     justify-content: space-around;
 }
 
-.client-nav1 .client-nav2 .client-nav3 .client-nav4 {
+li {
     width: 25%;
 }
 
 .wrapper-nav1 {
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none; 
+    font-family: 'gilroyextrabold';
 }
 
-.brand1 .brand3 .brand3 .brand4 {
+li {
     width: 25%;
 }
 
