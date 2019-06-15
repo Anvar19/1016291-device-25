@@ -421,7 +421,7 @@ body {
     display: none;
 }
 
-.left .right {
+.title-up .title {
     width: 50%;
 }
 
@@ -429,6 +429,12 @@ body {
     display: flex;
     margin: 0;
     padding: 0; 
+}
+
+.text-style-1 a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
 }
 
 .logo {
@@ -447,7 +453,7 @@ body {
     justify-content: space-around;
 }
 
-li {
+.wrapper-nav li {
     width: 25%;
 }
 
@@ -459,7 +465,7 @@ li {
     font-family: 'gilroyextrabold';
 }
 
-li {
+.wrapper-nav1 li {
     width: 25%;
 }
 
@@ -468,11 +474,11 @@ li {
     justify-content: space-around;
 }
 
-.cat-item1 .cat-item2 .cat-item3 .cat-item4 .cat-item5 .cat-item6 {
+.catalog-item {
     width: 16,666%;
 }
 
-.cat-list {
+.catalog-list {
     display: flex;
     justify-content: space-between;
 }
@@ -565,7 +571,7 @@ li {
     color: #464646;
 }
 
-.delivery {
+.sidebar {
     display: flex;
     justify-content: space-around;
 }
