@@ -11,46 +11,50 @@
   </head>
   <body>
     <header class="main-header">
+      <div class="wrapper">
+        <div class="logo">
       <nav class="main navigation">
-        <a class="main-header-logo" href="index.html">
-          <img src="img/device.png" width="111" height="24" alt="Device">
+        <a class="main-header-logo">
+          <img src="img/device.png" srcset="img/device@2x.png 2x, img/device@3x.png 3x" class="device">
         </a>
-        <ul class="site-navigation">
-          <li class="search"><a href="info.html">Поиск по сайту</a></li>
-          <li><a href="info.html">Сравнить</a></li>
-          <li><a href="bin.html">Корзина</a></li>
-        </ul>
-        <ul class="client-navigation">
-          <li><a href="catalog.html">Каталог товаров</a></li>
-          <ul class="subnavigation">
-            <li><a href="virtual-reality.html">Виртуальная реальность</a></li>
-            <li><a href="fitnes-brslets.html">Фитнес-браслеты</a></li>
-            <li><a href="quadrocopters.html">Квадрокоптеры</a></li>
-            <li><a href="monopodes.html">Моноподы для селфи</a></li>
-            <li><a href="smart-clocks.html">Умные часы</a></li>
-            <li><a href="action-cameras.html">Экшн-камеры</a></li>
-          </ul>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="warranty.html">Гарантия</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-          </ul>
-        <ul class="user-navigation">
-          <li><a href="profile.html">Валентин Петухов</a></li>
-          <li><a href="logout.html">Выйти</a></li>
+      </div>
+      </div>
+      <ul class="wrapper-nav">
+        <li class="search"><a href="info.html">Поиск по сайту</a></li>
+        <li><a href="info.html">Сравнить</a></li>
+        <li><a href="bin.html">Корзина</a></li>
+        <li><a href="profile.html">Валентин Петухов</a></li>
+        <li><a href="login.html">Выйти</a></li>
+      </ul>
+        <ul class="wrapper-nav1">
+          <li class="client-navigation"><a href="catalog.html">Каталог товаров</a>
+            <ul class="subnavigation">
+              <li><a href="virtual-reality.html">Виртуальная реальность</a></li>
+              <li><a href="fitnes-brslets.html">Фитнес-браслеты</a></li>
+              <li><a href="quadrocopters.html">Квадрокоптеры</a></li>
+              <li><a href="monopodes.html">Моноподы для селфи</a></li>
+              <li><a href="smart-clocks.html">Умные часы</a></li>
+              <li><a href="action-cameras.html">Экшн-камеры</a></li>
+            </ul>
+          </li>
+          <li class="client-navigation"><a href="delivery.html">Доставка</a></li>
+          <li class="client-navigation"><a href="warranty.html">Гарантия</a></li>
+          <li class="client-navigation"><a href="contacts.html">Контакты</a></li>
         </ul>
       </nav>
-    </header>
-
-  <main class="filter">
-    <h1 class="page-title">Моноподы для селфи</h1>
+      <h1 class="page-title">Моноподы для селфи</h1>
     <ul class="breadcrumbs">
       <li><a href="index.html">Главная</a></li>
       <li><a href="catalog.html">Каталог</a></li>
       <li class="breadcrumbs-current">Моноподы для селфи</li>
     </ul>
+    </header>
+
+  <main>
+    <div class="filter">
     <section class="filters">
-      <h3>Фильтр</h3>
-      <div>Cтоимость</div><br>
+      <h3 class="filter1">Фильтр</h3>
+      <h3 class="filter1">Cтоимость</h3><br>
       <form action="https://echo.htmlacademy.ru" method="get">
         <legend class="color">Цвет</legend>
         <ul class="color-list">
@@ -97,38 +101,41 @@
       <span class="catalog-item-price">4 900 руб.</span>
       </li>   
     </ul>
-  </section>
+      </section>
+    </div>
   </main>
 
-  <footer class="main-footer">
-    <p class="footer-contacts">
-      <img src="img/device.png" srcset="img/device@2x.png 2x, img/device@3x.png 3x" class="device">
-      <p class="adress">г.Москва, ул.Строителей,  д.15</p>
-      <ul class="services">
-        <li><a href="dostavka.html">Доставка</a></li>
-        <li><a href="warranty.html">Гарантия</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-      </ul>
-      <div class="footer-social">
-        <ul>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
-          <li><a class="social-button" href="#">Твиттер</a></li>
-        </ul>
+  <footer>
+      <div class="main-footer">
+      <div class="footer-contacts">
+        <img src="img/device.png" srcset="img/device@2x.png 2x, img/device@3x.png 3x" class="device">
+        <p class="adress">г.Москва, ул.Строителей,  д.15</p>
       </div>
-      <ul class="site-navigation">
-        <li><a href="info.html">Сравнить</a></li>
-        <li><a href="bin.html">Корзина</a></li>
-      </ul>
-      <ul class="user-navigation">
-        <li><a href="login.html">Войти</a></li>
-      </ul>
-      <p class="phone-number">Тел: +7 (495) 495-95-95</p>
-      <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="logoacademy.png"></a>
-    </footer>
-  
-    <input type="submit" value="В корзину">
-    <input type="submit" value="Добавить к сравнению">  
-
+       
+          <ul class="services">
+            <li><a href="dostavka.html">Доставка</a></li>
+            <li><a href="warranty.html">Гарантия</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+            <li><a class="social-button" href="#">Твиттер</a></li>
+          </ul>
+        
+        <ul class="footer-site-navigation">
+          <li><a href="info.html">Сравнить</a></li>
+          <li><a href="bin.html">Корзина</a></li>
+          <li><a href="login.html">Выйти</a></li>
+          <li><a href="profile.html">Валентин Петухов</a></li>
+          <p class="phone-number">Тел: +7 (495) 495-95-95</p>
+          <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="logoacademy.png"></a>
+        </ul>
+         
+        </div>
+      </footer>
+    <section class="bin">
+      <input type="submit" value="В корзину">
+      <input type="submit" value="Добавить к сравнению">  
+    </section>  
   </body>
 </html>
