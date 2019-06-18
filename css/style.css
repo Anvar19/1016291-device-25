@@ -651,14 +651,18 @@ body {
     justify-content: space-between;
 }
 
-.filters .catalog {
-    width: 50%;
+.filters {
+    width: 467px;
+}
+
+.catalog {
+    width: 972px;
 }
 
 .bin {
     display: none;
 }
 
-.catalog-list ul {
-    white-space: normal;
+.catalog-list {
+    flex-wrap: wrap;
 }
