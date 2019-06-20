@@ -676,3 +676,11 @@ body {
     width: 100%;
 }
 
+.service-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-links li {
+    width: 100%;
+}
