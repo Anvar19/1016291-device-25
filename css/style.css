@@ -666,3 +666,13 @@ body {
 .catalog-list {
     flex-wrap: wrap;
 }
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services li {
+    width: 100%;
+}
+
