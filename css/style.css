@@ -38,6 +38,14 @@ body {
     padding: 0;   
 }
 
+.main-header {
+    width: 1160px;
+    height: 299px;
+    opacity: 0.5;
+    background-color: #f0c52e;    
+}
+
+
 .client-navigation a {
     font-family: 'gilroyextrabold';
     font-size: 18px;
@@ -209,7 +217,7 @@ body {
     line-height: 1.33;
     letter-spacing: 3.6px;
     text-align: left;
-    color:#000000;
+    color:#ffffff;
 }
 
 .to-take {
@@ -242,7 +250,7 @@ body {
 .footer-back {
     width: 1440px;
     height: 323px;
-    background-color: #464646 url("img/footer.png");
+    background-color: #464646;
   }
 
 .adress {
@@ -254,7 +262,7 @@ body {
     line-height: 2;
     letter-spacing: normal;
     text-align: left;
-    color: #000;
+    color: #ffffff;
 }  
 
 .footer-social li  {
@@ -430,7 +438,7 @@ body {
     line-height: 2;
     letter-spacing: normal;
     text-align: right;
-    color: #000000;
+    color: #ffffff;
 }
 
 .modal-feedback {
@@ -619,7 +627,7 @@ body {
     line-height: 1.33;
     letter-spacing: 3.6px;
     text-align: left;
-    color: var(--header-top-text-color);
+    color: #ffffff;
     text-decoration: none;
     list-style-type: none;
 }
@@ -635,7 +643,7 @@ body {
     line-height: 2.4;
     letter-spacing: 0.2px;
     text-align: left;
-    color:  #464646;
+    color:  #ffffff;
 }
 
 .footer-site-navigation li {
@@ -670,7 +678,6 @@ body {
 .services {
     display: flex;
     justify-content: space-around;
-    
 }
 
 
@@ -690,4 +697,14 @@ body {
 .social-buttons {
     display: flex;
     justify-content: space-around;
+}
+
+.services-buttons li {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    color: #ffffff;
 }
