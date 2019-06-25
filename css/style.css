@@ -752,11 +752,11 @@ body {
 }
 
 .filters {
-    width: 267px;
+    width: 240px;
 }
 
 .catalog {
-    width: 9723px;
+    width: 848px;
 }    
 
 .bin {
@@ -828,8 +828,8 @@ body {
 }
 
 .inner-main-container {
-    width: 1040px;
-    padding-left: 80px;
-    padding-right: 80px;
+    width: 1100px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 0 auto;
 }
