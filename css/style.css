@@ -43,6 +43,7 @@ body {
 
 .client-navigation a {
     font-family: 'gilroyextrabold';
+    width: 214px;
     font-size: 18px;
     font-weight: 800;
     font-style: normal;
@@ -102,6 +103,7 @@ body {
 
 .search a {
     font-family: 'Open Sans', sans-serif;
+    width: 108px;
     opacity: 0.3;
     font-size: 15px;
     font-weight: 300;
@@ -112,6 +114,19 @@ body {
     text-align: left;
     color: rgba(0, 0, 0, 0.3);
 }
+
+.login {
+    width: 42px;
+}
+
+.header-bin {
+    width: 58px;
+}
+
+.compare {
+    width: 69px;
+}
+
 
 .user-navigation  a {
     font-family: 'Open Sans', sans-serif;
@@ -153,6 +168,7 @@ body {
 
 .brands li {
     list-style-type: none;
+    width: 260px;
 }
 .title-up {
     width: 462px;
@@ -168,7 +184,7 @@ body {
 }
 
 .title {
-    width: 746.7px;
+    width: 747px;
 }
   
 .text-style-1 {
@@ -247,9 +263,7 @@ body {
   }
 
 .footer-back {
-    width: 1440px;
-    height: 323px;
-    background-color: #464646;
+     background-color: #464646;
   }
 
 .adress {
@@ -465,17 +479,59 @@ body {
 }
 
 .logo {
-    width: 222px;
+    width: 163px;
 }
 
-.nav1 .nav2 .nav3 .nav4 {
-    width: 25%;
-    margin-right: 10px;
+.navigation-delivery {
+    width: 121px;
+    text-decoration: none; 
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: left;
 }
+
+.navigation-warranty {
+    width: 109px;
+    text-decoration: none;
+    color: #000000; 
+    text-transform: uppercase;
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: left;
+}
+
+.navigation-contacts {
+    width: 117px;
+    text-decoration: none;
+    color: #000000; 
+    text-transform: uppercase;
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: left;
+}
+
 
 .wrapper-nav {
     display: flex;
     justify-content: space-around;
+    padding-right: 0;
 }
 
 .wrapper-nav li {
@@ -488,24 +544,28 @@ body {
     list-style-type: none;
     text-decoration: none; 
     font-family: 'gilroyextrabold';
+    padding-right: 0;
 }
 
-.wrapper-nav1 li {
+.wrapper-nav1 ul {
     width: 25%;
+    text-decoration: none; 
 }
 
 .brands {
     display: flex;
     justify-content: space-around;
+    opacity: 0.2;
 }
 
 .catalog-item {
-    width: 213px;
+    width: 360px;
 }
 
 .catalog-list {
     display: flex;
     justify-content: space-between;
+    padding-right: 0;
 }
 
 
@@ -642,11 +702,13 @@ body {
     color: #ffffff;
     text-decoration: none;
     list-style-type: none;
+    padding-right: 0;
 }
 
 .social-buttons {
     width: 213px;
     text-align: center;
+    padding-right: 0;
 }
 
 .social-button a {
@@ -666,6 +728,7 @@ body {
     letter-spacing: 0.2px;
     text-align: right;
     color:  #ffffff;
+    padding-right: 0;
 } 
 
 .footer-site-navigation {
@@ -693,9 +756,8 @@ body {
 }
 
 .catalog {
-    width: 1013px;
-    flex-wrap: wrap;
-}
+    width: 9723px;
+}    
 
 .bin {
     display: none;
@@ -703,7 +765,8 @@ body {
 
 .catalog-list-inner {
     list-style-type: none;
-    width: 1013px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .services {
@@ -728,7 +791,7 @@ body {
 .social-buttons {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .services-buttons li {
@@ -742,30 +805,31 @@ body {
 }
 
 .footer-container {
-    width: 1060px;
+    width: 1160px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: -0 auto;
+    margin: 0 auto;
 }
 
 .main-container {
-    width: 1060px;
+    width: 1160px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: -0 auto;
+    margin: 0 auto;
 }
 
 .header-container {
-    width: 940px;
+    width: 1160px;
     padding-left: 80px;
     padding-right: 80px;
-    margin: -0 auto;
+    opacity: 0.5;
+    margin: 0 auto;
     background-color: #f0c52e;   
 }
 
 .inner-main-container {
-    width: 940px;
+    width: 1040px;
     padding-left: 80px;
     padding-right: 80px;
-    margin: -0 auto;
+    margin: 0 auto;
 }
