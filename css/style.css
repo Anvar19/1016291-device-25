@@ -263,7 +263,9 @@ body {
   }
 
 .footer-back {
-     background-color: #464646;
+    width: 1440px;
+    height: 323px;
+    background-color: #464646;
   }
 
 .adress {
@@ -834,4 +836,25 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     margin: 0 auto;
+}
+
+.search ::before {
+    content: "";
+    position: absolute;
+
+    top: 7px;
+    right: -25px;
+
+    width: 16px;
+    height: 16px;
+
+  background-color: #000000;
+}
+
+.services {
+    margin-top: 135px;
+}
+
+.social-buttons {
+    margin-top: 67px;
 }
