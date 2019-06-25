@@ -560,6 +560,7 @@ body {
 
 .catalog-item {
     width: 360px;
+    margin: 10px;
 }
 
 .catalog-list {
@@ -767,6 +768,7 @@ body {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .services {
