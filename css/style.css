@@ -472,6 +472,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0; 
+    opacity: 1;
 }
 
 .text-style-1 a {
@@ -534,10 +535,13 @@ body {
     display: flex;
     justify-content: space-around;
     padding-right: 0;
+    opacity: 1;
+    
 }
 
 .wrapper-nav li {
     width: 25%;
+    opacity: 1;
 }
 
 .wrapper-nav1 {
@@ -547,6 +551,7 @@ body {
     text-decoration: none; 
     font-family: 'gilroyextrabold';
     padding-right: 0;
+    opacity: 1;
 }
 
 .wrapper-nav1 ul {
@@ -688,7 +693,7 @@ body {
 }
 
 .footer-contacts {
-    width: 267px;
+    width: 200px;
     text-align: left;
 }
 
@@ -738,6 +743,7 @@ body {
     width: 443px;
     text-align: right;
     list-style-type: none;
+    margin-top: 68px;
 }
 
 
@@ -802,6 +808,11 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 440px;
+}
+
+.services-buttons {
+    
 }
 
 .service {
@@ -838,18 +849,7 @@ body {
     margin: 0 auto;
 }
 
-.search ::before {
-    content: "";
-    position: absolute;
 
-    top: 7px;
-    right: -25px;
-
-    width: 16px;
-    height: 16px;
-
-  background-color: #000000;
-}
 
 .services {
     margin-top: 135px;
@@ -857,4 +857,21 @@ body {
 
 .social-buttons {
     margin-top: 67px;
+}
+
+.footer-contacts {
+    margin-top: 68px;
+    margin-bottom: 168px;
+}
+
+.adress {
+    margin-top: 25px;
+    }
+
+.phone-number {
+    margin-top: 28px;
+}
+
+.logoacademy {
+    margin-top: 60px;
 }
