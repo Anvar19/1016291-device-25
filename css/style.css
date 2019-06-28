@@ -57,6 +57,7 @@ body {
 
 .client-navigation {
     list-style-type: none;
+    width: 465px;
 }
 
 .client-navigation li {
@@ -103,7 +104,7 @@ body {
 
 .search a {
     font-family: 'Open Sans', sans-serif;
-    width: 108px;
+    width: 540px;
     opacity: 0.3;
     font-size: 15px;
     font-weight: 300;
@@ -115,17 +116,38 @@ body {
     color: rgba(0, 0, 0, 0.3);
 }
 
+.search {
+    width: 540px;
+    position: relative;
+}
+
+.search::before {
+    content: "";
+
+    position: absolute;
+
+    width: 16px;
+    height: 16px;
+
+    background-image: url("img/search.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    object-fit: contain;
+}
+
 .login {
-    width: 42px;
+    width: 290px;
 }
 
 .header-bin {
-    width: 58px;
+    width: 86px;
+    padding-right: 0;
 }
 
 .compare {
-    width: 69px;
-}
+    width: 127px;
+    }
 
 
 .user-navigation  a {
@@ -181,6 +203,7 @@ body {
     letter-spacing: normal;
     text-align: left;
     color: #464646;
+    margin-right: 140px;
 }
 
 .title {
@@ -204,6 +227,7 @@ body {
     line-height: 1.02;
     letter-spacing: 0.5px;
     color: #000000;
+    margin-bottom: 53px;
 }
 
 .contacts {
@@ -216,6 +240,7 @@ body {
     letter-spacing: 0.5px;
     text-align: left;
     color: #000000;
+    margin-bottom: 53px;
   }
 
 .services li {
@@ -247,7 +272,12 @@ body {
     letter-spacing: normal;
     text-align: left;
     color: #464646;
+    margin-bottom: 45px;
   }
+
+.map {
+    margin-bottom: 100px;
+}
 
 .button-back li {
     list-style-type: none; 
@@ -473,6 +503,14 @@ body {
     margin: 0;
     padding: 0; 
     opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.15px;
+    text-align: left;
 }
 
 .text-style-1 a {
@@ -483,10 +521,13 @@ body {
 
 .logo {
     width: 163px;
+    position: absolute;
+    top: 20px;
+    bottom: 37px;
 }
 
 .navigation-delivery {
-    width: 121px;
+    width: 160px;
     text-decoration: none; 
     color: #000000;
     text-transform: uppercase;
@@ -501,7 +542,7 @@ body {
 }
 
 .navigation-warranty {
-    width: 109px;
+    width: 220px;
     text-decoration: none;
     color: #000000; 
     text-transform: uppercase;
@@ -516,7 +557,7 @@ body {
 }
 
 .navigation-contacts {
-    width: 117px;
+    width: 120px;
     text-decoration: none;
     color: #000000; 
     text-transform: uppercase;
@@ -533,29 +574,29 @@ body {
 
 .wrapper-nav {
     display: flex;
-    justify-content: space-around;
-    padding-right: 0;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-top: 34px;
     opacity: 1;
     
 }
 
 .wrapper-nav li {
-    width: 25%;
     opacity: 1;
 }
 
 .wrapper-nav1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
     text-decoration: none; 
     font-family: 'gilroyextrabold';
-    padding-right: 0;
+    padding-left: 0;
+    padding-top: 53px;
     opacity: 1;
 }
 
 .wrapper-nav1 ul {
-    width: 25%;
     text-decoration: none; 
 }
 
@@ -563,17 +604,23 @@ body {
     display: flex;
     justify-content: space-around;
     opacity: 0.2;
+    margin-top: 100px;
+    margin-bottom: 170px;
 }
 
 .catalog-item {
-    width: 360px;
+    width: 160px;
+    height: 160px;
+    background-color: var(--macaroni-and-cheese);
     margin: 10px;
 }
 
 .catalog-list {
     display: flex;
     justify-content: space-between;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1160px;
 }
 
 
@@ -633,19 +680,18 @@ body {
 
 .main-slider {
     display: flex;
-    justify-content: space-around;
-}
-
-.slider .slider-description {
-    width: 50%;
+    justify-content: space-between;
 }
 
 .slider {
-    width: 534px;
+    width: 380px;
 }
 
 .slider-description {
-    width: 640px;
+    width: 460px;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 580px; 
 }
 
 .delivery-header {
@@ -659,6 +705,7 @@ body {
     letter-spacing: 0.5px;
     text-align: left;
     color: var(--black);
+    
 }
 
 .delivery-how {
@@ -677,14 +724,26 @@ body {
 .sidebar {
     display: flex;
     justify-content: space-around;
+    margin-top: 165px;
+    background-color: #e5e5e5;
+    width: 1440px;
 }
 
 .delivery-links {
     width: 373px;
+    padding-bottom: 50px;
 }
 
 .delivery-description {
     width: 739px;
+    margin-bottom: 50px;
+}
+
+.delivery {
+    padding-left: 0;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .main-footer {
@@ -716,7 +775,7 @@ body {
 .social-buttons {
     width: 213px;
     text-align: center;
-    padding-right: 0;
+    padding-left: 0;
 }
 
 .social-button a {
@@ -725,7 +784,6 @@ body {
 
 
 .footer-site-navigation a {
-    width: 443px;
     opacity: 0.7;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -740,10 +798,10 @@ body {
 } 
 
 .footer-site-navigation {
-    width: 443px;
+    width: 325px;
     text-align: right;
     list-style-type: none;
-    margin-top: 68px;
+    padding-top: 68px;
 }
 
 
@@ -835,11 +893,13 @@ body {
 
 .header-container {
     width: 1160px;
+    min-height: 299px;
     padding-left: 80px;
     padding-right: 80px;
-    opacity: 0.5;
     margin: 0 auto;
-    background-color: #f0c52e;   
+    margin-top: 40px;
+    background-color: #f0c52e;
+      
 }
 
 .inner-main-container {
@@ -860,8 +920,8 @@ body {
 }
 
 .footer-contacts {
-    margin-top: 68px;
-    margin-bottom: 168px;
+    padding-top: 68px;
+    
 }
 
 .adress {
@@ -873,5 +933,65 @@ body {
 }
 
 .logoacademy {
-    margin-top: 60px;
+    margin-top: 55px;
+    display: block;
+    width: 325px;
+    
 }
+
+.slider {
+    background-image: url("img/slider-1.png");
+    position: absolute;
+    left: 100px;
+    top: 228px;
+    width: 384px;
+    height: 486px;
+    z-index: 148;
+}    
+
+.bigchoice {
+    padding-bottom: 25px;
+}
+
+.delivery_terms {
+    padding-bottom: 90px;
+}
+
+.about-us-link {
+    width: 260px;
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: var(--black);
+    padding-top: 20px;
+    padding-right: 0;
+    background-image: url("img/Layer-7-copy-4.png");
+}
+
+.wrapper-contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 92px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1160px;
+}
+
+.button-back {
+    width: 260px;
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: var(--black);
+}
+
