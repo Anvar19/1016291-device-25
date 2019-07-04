@@ -27,19 +27,21 @@
         <li class="header-bin"><a href="bin.html">Корзина</a></li>
       </ul>
         <ul class="wrapper-nav1">
-          <li class="client-navigation"><a href="inner.html">Каталог товаров</a>
+          <li class="client-navigation"><a class="client-navigation-links" href="inner.html">Каталог товаров</a>
             <ul class="subnavigation">
-              <div class="column-1">
-                <li ><a href="virtual-reality.html">Виртуальная реальность</a></li>
-                <li><a href="fitnes-brslets.html">Фитнес-браслеты</a></li>
-                <li><a href="quadrocopters.html">Квадрокоптеры</a></>
-              </div>
-              <div class="column-2">
-                <li><a href="monopodes.html">Моноподы для селфи</a></liss="column-2">
+              <div сlass="subnavigation-links">
+                <div class="column-1">
+                  <li><a href="virtual-reality.html">Виртуальная реальность</a></li>
+                  <li><a href="fitnes-brslets.html">Фитнес-браслеты</a></li>
+                  <li><a href="quadrocopters.html">Квадрокоптеры</a></>
+                </div>
+                <div class="column-2">
+                  <li><a href="monopodes.html">Моноподы для селфи</a></liss="column-2">
                 <li><a href="smart-clocks.html">Умные часы</a></licolumn-1">
               </div>
               <div class="column-3">
                 <li><a href="action-cameras.html">Экшн-камеры</a></li>
+              </div>
               </div>    
               </ul>
           </li>
@@ -59,7 +61,7 @@
       <div class="slider-description">       
         <h1 class="item-header">Делай селфи, <br>как Бен Стиллер!</h1>
         <p class="slider-about">Самая длинная палка для селфи доступна в нашем магазине.
-          Восемь (Восемь, Карл) метров длиной и весом всего 5 килограмм.</p>
+          Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
         <a class="item-link" href="catalog-item.html">ПОДРОБНЕЕ</a>
         <table>
           <tr class="item-options">
@@ -186,6 +188,7 @@
             <div class="delivery-description">
               <h2 class="delivery-header">Доставка</h2>
               <p class="delivery-how">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+              
         </section>
         <ul class="brands">
           <li class="brand"><a><img src="img/dji.png" width="260" height="100"></a></li>
@@ -211,6 +214,12 @@
             <h2 class="contacts">Контакты</h2>
               <p class="to-take">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
                 <img class="map" src="img/map.png" width="560" height="222">
+                  <section class="modal-map">
+                    <img class="big-map" src="img/map-big.jpg.png">
+                    <button class="modal-map-close" type="button">
+                    <img class="modal-map-close" src="img/modal-close.png">
+                </button>
+                  </section>
               <ul class="button-back">
                 <li><a href="feedback.html">Напишите нам</a></li>
               </ul>
@@ -251,20 +260,29 @@
             </div>
           </footer>
         <section class="modal-feedback">
+          <div class="feedback-container">
+            <div class="name-mail">
           <form action="https://echo.htmlacademy.ru" method="post">
-            <label for="name-field">Ваше имя:</label>
-            <input type="text" name="name" id="name-field" value="Имя, Фамилия">
-                      
-            <label for="mail-field">Ваш e-mail:</label>
-            <input type="text" name="mail" id="mail-field" value="email@example.com">
-                        
-            <label for="letter-field">Текст письма:</label>
-            <input type="text" name="letter" id="letter-field" value="В свободной форме">
-                       
+            <label class="name" for="name-field">Ваше имя:</label>
+            <label class="mail" for="mail-field">Ваш e-mail:</label>
+          </div>
+            <div class="name-mail-fields">
+            <input class="name-field" type="text" name="name" id="name-field" value="Имя, Фамилия">
+            <input class="mail-field" type="text" name="mail" id="mail-field" value="email@example.com">
+            </div>
+            <div class="text-space">
+              <label  class="text" for="letter-field">Текст письма:</label>
+            </div>
+            <div class="letter">
+              <input type="text" name="letter" id="letter-field" value="В свободной форме">
+            </div>
+            <div class="send">           
             <input type="submit" value="Отправить">
-            
-            <div><a href="close.html">X</a></div>
-          </form>
+          </div>
+          <button class="modal-feedback-close" type="button">
+              
+            </form>
+          </div>
         </section>
       </body>
       </html>
