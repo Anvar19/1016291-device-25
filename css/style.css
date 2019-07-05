@@ -1291,6 +1291,7 @@ body {
     z-index: 2;
     text-align: left;
     left: 10px;
+
 }
 
 .warranty-link {
@@ -1314,7 +1315,6 @@ body {
 .delivery-link::before {
     content: "";
     
-
     position: absolute;
     top: 6px;
     left: -20px;
@@ -1329,9 +1329,14 @@ body {
     object-fit: contain;
 }
 
+.delivery-link:hover:after {
+    display: block;
+}
+
 .delivery-link::after {
     content: "";
     
+    display: none;
     position: absolute;
     top: -10px;
     left: -20px;
@@ -1364,6 +1369,33 @@ body {
     object-fit: contain;
 }
 
+.warranty-link:hover:after  {
+    display: block;
+}
+
+.warranty-link:hover .warranty-description {
+    display: block;
+}
+
+.warranty-link::after {
+    content: "";
+    
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    width: 282px;
+    height: 40px;
+    z-index: -1;  
+    
+    background-image: url("../img/Layer 7 copy.png");
+   
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    
+    object-fit: contain;
+}
+
 .credit-link::before {
     content: "";
 
@@ -1375,6 +1407,29 @@ body {
     z-index: -1;  
     
     background-image: url("../img/Layer 7 copy 2.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    
+    object-fit: contain;
+}
+
+.credit-link:hover:after  {
+    display: block;
+}
+
+.credit-link::after {
+    content: "";
+    
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    width: 282px;
+    height: 40px;
+    z-index: -1;  
+    
+    background-image: url("../img/Layer 7 copy.png");
+   
     background-repeat: no-repeat;
     background-position: 0 0;
     
