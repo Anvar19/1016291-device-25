@@ -746,7 +746,7 @@ body {
 }
 
 .modal-feedback {
-    display: none;
+    display: block;
 }
 
 .modal-feedback {
@@ -761,63 +761,25 @@ body {
 
 .feedback-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 960px;
     height: 560px;
 }
 
-.name-mail  {
-    font-family: 'gilroyextrabold';
-    font-size: 18px;
-    font-weight: 800;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: var(--black);
-    position: absolute;
+.feedback-item {
     margin-top: 100px;
+    width: 360px;
+}
+
+.feedback-item label {
+    display: block;
+    margin-left: 100px;
+    margin-right: 10px;
 }
 
 .name {
-    margin-left: 100px;
-}
-
-.mail {
-    margin-left: 300px;
-    
-}
-
-.text-space {
     font-family: 'gilroyextrabold';
-    font-size: 18px;
-    font-weight: 800;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: var(--black);
-    margin-top: 260px;
-    position: absolute;
-    left: 100px;
-}
-
-.send {
-    width: 130px;
-    height: 12px;
-    font-family: 'gilroyextrabold';
-    font-size: 18px;
-    font-weight: 800;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: 3.6px;
-    text-align: center;
-    color: var(--black);
-    margin-left: -1000px;
-    margin-top: 450px;
     
 }
 
@@ -836,9 +798,14 @@ body {
     color: rgba(70, 70, 70, 0.4);
     border: none;
     background: url("../img/Layer 125.png");
-    margin-top: 150px;
+    margin-top: 15px;
     margin-left: 100px;
-   
+    padding-left: 17px;
+}
+
+.mail {
+    font-family: 'gilroyextrabold';
+    margin-left: 0;
 }
 
 .mail-field {
@@ -857,16 +824,57 @@ body {
     border: none;
     background: url("../img/Layer 125.png");
     padding-left: 17px;
-    margin-left: 500px;
-    margin-bottom: 900px; 
-    position: absolute;
+    margin-top: 15px;
 }
 
-.letter {
+.send {
+    font-family: 'gilroyextrabold';
+    margin-left: 150px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+    background: none;
+    z-index: 15;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.send::before {
+    content: "";
+
+    position: absolute;
+    left: -50px;
+    top: 7px; 
+    width: 200px;
+    height: 8px;
+    opacity: 0.7;
+    z-index: 5;
+    background-image:url("../img/Layer 7 copy 7.png");
+    background-repeat:no-repeat;
+    background-position:0 0;
+    
+    object-fit: contain;
+}
+
+.feedback-item-text {
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+
+
+.feedback-item-text label {
+    font-family: 'gilroyextrabold';
+    display: block;
+    margin-top: 0;
+}
+
+.feedback-item-text input {
     width: 760px;
     height: 155px;
-    opacity: 1;
     font-family: 'Open Sans', sans-serif;
+    opacity: 1;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -874,23 +882,19 @@ body {
     line-height: 1.29;
     letter-spacing: normal;
     text-align: left;
+    padding-left: 17px;
     color: rgba(70, 70, 70, 0.4);
     border: none;
-    background: url("../img/Layer 36 copy.png");
-    margin-top: 290px;
-    margin-left: 100px;
-    position: absolute;
+    background: url("../img/letter-background.png");
+    margin-top: 15px;
 }
 
 .modal-feedback-close {
     width: 55px;
     height: 55px;
-    position: relative;
+    margin-top: 475px;
     border: none;
-    top: 35px;
-    right: 21px;
-    bottom: 473px;
-    left: -50px;
+    
     background-image:url("../img/modal-close.png");
     background-color: transparent;
     cursor: pointer;

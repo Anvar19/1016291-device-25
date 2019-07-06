@@ -283,29 +283,25 @@
             </div>
           </footer>
         <section class="modal-feedback">
-          <div class="feedback-container">
-            <div class="name-mail">
-          <form action="https://echo.htmlacademy.ru" method="post">
-            <label class="name" for="name-field">Ваше имя:</label>
-            <label class="mail" for="mail-field">Ваш e-mail:</label>
-          </div>
-            <div class="name-mail-fields">
-            <input class="name-field" type="text" name="name" id="name-field" value="Имя, Фамилия">
-            <input class="mail-field" type="text" name="mail" id="mail-field" value="email@example.com">
-            </div>
-            <div class="text-space">
-              <label  class="text" for="letter-field">Текст письма:</label>
-            </div>
-            <div class="letter">
+          <form class="feedback-container" action="https://echo.htmlacademy.ru" method="post">
+            <p class="feedback-item">
+              <label class="name" for="name-field">Ваше имя:</label>
+              <input class="name-field" type="text" name="name" id="name-field" value="Имя, Фамилия">
+            </p>
+            <p class="feedback-item">
+              <label class="mail" for="mail-field">Ваш e-mail:</label>
+              <input class="mail-field" type="text" name="mail" id="mail-field" value="email@example.com">
+            </p>
+            <p class="feedback-item-text">
+              <label class="text" for="letter-field">Текст письма:</label>
               <input type="text" name="letter" id="letter-field" value="В свободной форме">
-            </div>
-            <div class="send">           
-            <input type="submit" value="Отправить">
-          </div>
-          <button class="modal-feedback-close" type="button">
-              
-            </form>
-          </div>
+            </p>
+            <p class="send">
+              <input id="send" type="submit" value="Отправить">
+            </p>
+            <button class="modal-feedback-close" type="button">
+          </form>
+         
         </section>
       </body>
       </html>
