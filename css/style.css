@@ -95,9 +95,9 @@ body {
     display: none;
     background-color: rgba(247, 225, 132, 1);
     min-height: 137px;
-    width: 1440px;
+    width: 1240px;
     z-index: 5;
-    position: absolute;
+    position: relative;
     padding-left: 0;
 }
 
@@ -601,6 +601,23 @@ body {
     letter-spacing: 3.2px;
     text-align: left;
     color: var(--black);
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.filter2 {
+    height: 11px;
+    font-family: 'gilroyextrabold';
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: var(--black);
+    margin-bottom: 125px;
 }
 
 .color {
@@ -612,7 +629,7 @@ body {
     line-height: 1.33;
     letter-spacing: 0.2px;
     text-align: left;
-    color: #000000
+    color: #000000;
 }
 
 .color-list li {
@@ -628,7 +645,8 @@ body {
     line-height: 2.86;
     letter-spacing: 0.1px;
     text-align: left;
-    color: #000000
+    color: #000000;
+    margin-bottom: 50px;
 }
 
 .bluetooth {
@@ -669,6 +687,29 @@ body {
     letter-spacing: 3.6px;
     text-align: center;
     color: #000000;
+    text-transform: uppercase;
+    z-index: 15;
+    position: relative;
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 60px;
+}
+
+.show::before {
+    content: "";
+
+    position: absolute;
+    
+    width: 200px;
+    height: 8px;
+    top: 2000px;
+    z-index: 15;
+    background-image:url("../img/Layer 7 copy 7.png");
+    background-repeat:no-repeat;
+    background-position:0 0;
+    
+    object-fit: contain;
 }
 
 .catalog-item  {
@@ -676,6 +717,11 @@ body {
     width: 360px;
     min-height: 380px;
     margin: 20px;
+    position: relative;
+}
+
+.catalog-item:hover {
+    opacity: 0.7;
 }
 
 .item-name {
@@ -746,7 +792,7 @@ body {
 }
 
 .modal-feedback {
-    display: block;
+    display: none;
 }
 
 .modal-feedback {
@@ -774,10 +820,21 @@ body {
 
 .feedback-item-mail {
     margin-top: 100px;
-    margin-left: 30px;
+   
+}
+
+.feedback-item-mail input {
+    margin-top: 7px;
+    margin-right: 80px;
     width: 360px;
 }
 
+.feedback-item-mail label {
+    display: block;
+    margin-top: 10px;
+    margin-left: 0;
+    width: 360px;
+}
 
 .feedback-item label {
     display: block;
@@ -791,7 +848,7 @@ body {
 }
 
 .name-field {
-    width: 360px;
+    width: 340px;
     height: 45px;
     opacity: 1;
     font-family: 'Open Sans', sans-serif;
@@ -812,7 +869,7 @@ body {
 
 .mail {
     font-family: 'gilroyextrabold';
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
 .mail-field {
@@ -836,7 +893,9 @@ body {
     margin-right: 50px;
 }
 
-.send {
+.send input {
+    width: 140px;
+    height: 20px;
     text-decoration: none; 
     font-family: 'gilroyextrabold';
     font-size: 18px;
@@ -847,13 +906,11 @@ body {
     letter-spacing: 3.6px;
     text-align: center;
     color: #000000;
-    
-    
-    
-    margin-left: 150px;
-    margin-bottom: 75px;
+    background: none;    
+    margin-left: 130px;
+    margin-bottom: 55px;
     margin-top: 50px;
-    
+    text-transform: uppercase;
     z-index: 15;
     position: relative;
     border: none;
@@ -864,11 +921,11 @@ body {
     content: "";
 
     position: absolute;
-    left: -50px;
-    top: 7px; 
+    left: 100px;
+    top: 487px; 
     width: 200px;
     height: 8px;
-    opacity: 0.7;
+    
     z-index: 5;
     background-image:url("../img/Layer 7 copy 7.png");
     background-repeat:no-repeat;
@@ -1312,7 +1369,7 @@ body {
     justify-content: space-around;
     margin-top: 250px;
     background-color: #e5e5e5;
-    width: 1440px;
+    width: 1240px;
     z-index: 10;
 }
 
@@ -1670,6 +1727,7 @@ body {
 .filter {
     display: flex;
     justify-content: space-around;
+    width: 1300px;
 }
 
 .filters {
@@ -1677,11 +1735,64 @@ body {
 }
 
 .catalog {
-    width: 848px;
+    width: 948px;
 }    
 
 .bin {
-    display: none;
+    display: block;
+}
+
+.inbin {
+    font-family: 'gilroyextrabold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: #000000;
+    background: none;    
+   
+   
+    z-index: 15;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.inbin::before {
+    content: "";
+
+    position: absolute;
+    
+    width: 200px;
+    height: 8px;
+    
+    z-index: 5;
+    background-image:url("../img/Layer 7 copy 7.png");
+    background-repeat:no-repeat;
+    background-position:0 0;
+    
+    object-fit: contain;
+}
+
+.compare-inner {
+    
+    opacity: 0.5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.77;
+    letter-spacing: 0.13px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    background: none; 
+    position: relative;
+    border: none;
+    outline: none;  
 }
 
 .catalog-list-inner {
@@ -1689,6 +1800,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+    width: 830px;
 }
 
 .item1 .item2 .item3 .item4 {
@@ -1886,13 +1998,25 @@ body {
       
 }
 
-
+.header-container-inner {
+    width: 1160px;
+    min-height: 186px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 40px;
+    background-color: rgba(247, 225, 132, 1);
+      
+}
 
 .inner-main-container {
     width: 1100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    z-index: 15;
 }
 
 
@@ -2021,4 +2145,19 @@ td {
 
 table {
     margin-top: 50px;
+}
+
+.page-title {
+    z-index: 15;
+}
+
+.logout li {
+    opacity: 0.3;
+}
+
+.filters {
+    width: 467px;
+    height: 1287px;
+    background-color: #ebebeb;
+    padding-left: 20px;
 }
