@@ -1739,7 +1739,7 @@ body {
 }    
 
 .bin {
-    display: block;
+    display: none;
 }
 
 .inbin {
